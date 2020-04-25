@@ -1,1 +1,1 @@
-require('./src').listen(3000);
+require('./src').listen(process.env.PORT || 3000);
